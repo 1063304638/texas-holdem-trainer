@@ -1,0 +1,19 @@
+name: texas_holdem_trainer
+description: 本地运行的德州扑克人机对战训练应用，内置蒙特卡洛实时胜率计算器。
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+# 刻意不引入任何第三方依赖：只需要 Flutter SDK 本身，编译环境干净、离线也能编译。
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

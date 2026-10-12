@@ -1,0 +1,8 @@
+# 分析器配置：不引入第三方 lint 包，保证 `flutter pub get` 只需要 Flutter SDK。
+analyzer:
+  language:
+    strict-casts: false
+    strict-inference: false
+    strict-raw-types: false
+  errors:
+    todo: ignore
