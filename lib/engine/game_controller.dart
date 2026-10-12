@@ -309,7 +309,7 @@ class GameController extends ChangeNotifier {
   ///
   /// 对手已经全下时不允许再加注（加了也没人跟，多出的筹码只会被退回），
   /// 此时想要把筹码全押进去应该用"跟注"（筹码不足时跟注会自动变成全下跟注）。
-  void heroAllIn() {
+  void heroPushAllIn() {
     if (!isHeroTurn || !canRaise) {
       return;
     }
