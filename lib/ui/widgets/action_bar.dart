@@ -87,7 +87,7 @@ class _ActionBarState extends State<ActionBar> {
                     label: '全下',
                     enabled: active && c.canRaise,
                     color: const Color(0xFF6A1B9A),
-                    onPressed: c.heroAllIn,
+                    onPressed: c.heroPushAllIn,
                   ),
                 ),
               ],
